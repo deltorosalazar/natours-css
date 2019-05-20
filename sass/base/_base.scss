@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;  
+}
+
+html {
+  /*
+    1rem === font-size
+    1rem === 10px
+
+    Setting the root font-size in pixels is a bad pratice.
+    So, it is better to change it to percentage
+  */
+   
+  /* 
+    font-size: 10px; 
+
+    If the default browser font-size is 16px, so
+        16px === 100%
+        10px ===  ? %
+  */
+  
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;  
+}
