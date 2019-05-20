@@ -1,0 +1,16 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Natours",
+  "main": "index.js",
+  "repository": "git@github.com:deltorosalazar/natours-css.git",
+  "author": "Manuel F. Del Toro <deltorosalazar@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
