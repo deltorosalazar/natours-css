@@ -10,3 +10,7 @@ Project to learn CSS3
   transform: translate(-50%, -50%)
 }
 ```
+
+## The 7-1 Pattern
+The SASS scaffolsding for this project is based on the [The 7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern)
+
