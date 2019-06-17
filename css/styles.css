@@ -1,3 +1,15 @@
+/*
+  0 - 600px     Phone
+  600 - 900px   Tablet Portrait
+  900 - 1200px  Tablet Landscape
+  [1200 - 1800] Normal Styles
+  > 1800        Big Desktops
+*/
+/*
+rem doesn't work with media queries, so in this case we'll use em
+
+1em === 16px
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -49,9 +61,19 @@ html {
         10px ===  ? %
   */
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 3rem; }
 
 body {
   font-family: "Lato", sans-serif;
